@@ -1,8 +1,3 @@
-Here’s your updated README with all emojis removed and a clean, professional format retained:
-
----
-
-````markdown
 # AWS Solutions Architect Project
 
 This project automates the deployment of a Jenkins CI/CD server and a Prometheus monitoring server on AWS using Terraform. It provisions the required infrastructure, installs the necessary software, and configures both servers for seamless operation.
@@ -46,7 +41,7 @@ This project uses Terraform to deploy and configure:
 ├── config_files/
 │   └── prometheus.yml
 └── README.md
-````
+```
 
 ---
 
@@ -151,4 +146,3 @@ Ensure the following are installed and configured:
 
 * `.gitignore` excludes sensitive files like `terraform.tfstate` and Jenkins secrets.
 * Security groups limit access to essential ports only.
-```
