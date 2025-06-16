@@ -6,6 +6,7 @@ This project automates the deployment of a Jenkins CI/CD server and a Prometheus
 
 ## Project Overview
 
+![Infrastructure Diagram](Cloud Architecture.png)
 This project uses Terraform to deploy and configure:
 
 ### 1. Jenkins Server
