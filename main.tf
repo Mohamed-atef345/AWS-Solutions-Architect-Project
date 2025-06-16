@@ -24,14 +24,3 @@ module "prometheus_server" {
   remote_file_path     = "/home/ubuntu/prometheus.yml"
 }
 
-module "jenkins_node" {
-  count = 2
-  source = "./modules/server_module"
-  server_name = "jenkins_node_${count.index}"
-  script_path = "./scripts/install_java.sh"
-  allow_web_port = false
-  key_name    = aws_key_pair.shared_key.key_name
-  use_file_provisioner = false
-}
-
-
